@@ -13,3 +13,6 @@ Projects referred:
 Video sources:  
 1. https://www.youtube.com/watch?v=39w_zYB7AVM&t=0s
 2. https://www.youtube.com/watch?v=LQCQym6hVMo&t=0s
+
+
+!sed -i 's/from torchvision.transforms.functional_tensor import rgb_to_grayscale/from torchvision.transforms._functional_tensor import rgb_to_grayscale/' /usr/local/lib/python3.10/dist-packages/basicsr/data/degradations.py
